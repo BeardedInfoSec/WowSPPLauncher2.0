@@ -274,6 +274,7 @@ namespace SppLauncher.Windows.Launcher
             cmdStartInfo.RedirectStandardError  = true;
             cmdStartInfo.UseShellExecute        = false;
             cmdStartInfo.WindowStyle            = ProcessWindowStyle.Normal;
+            cmdStartInfo.WorkingDirectory       = LwPath;
             _cmd1 = new Process();
             _cmd1.StartInfo = cmdStartInfo;
 
@@ -308,6 +309,7 @@ namespace SppLauncher.Windows.Launcher
             cmdStartInfo.RedirectStandardError  = true;
             cmdStartInfo.UseShellExecute        = false;
             cmdStartInfo.WindowStyle            = ProcessWindowStyle.Hidden;
+            cmdStartInfo.WorkingDirectory       = LwPath;
             _cmd                                = new Process();
             _cmd.StartInfo                      = cmdStartInfo;
             if (_cmd.Start())
