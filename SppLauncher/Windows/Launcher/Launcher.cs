@@ -1714,21 +1714,21 @@ namespace SppLauncher.Windows.Launcher
                     pbarWorld.Value = 60;
                     _world          = "";
                 }
-                if (_world.Contains("Waypoint templates loaded"))
+                if (_world.Contains("Loading Scripts random templates..."))
                 {
                     pbarWorld.Value = 70;
                     _world          = "";
                 }
-                if (_world.Contains("Loading GameTeleports..."))
+                if (_world.Contains("Loading spell scripts..."))
                 {
                     pbarWorld.Value = 80;
                     _world          = "";
                 }
-                if (_world.Contains("Initialize AuctionHouseBot..."))
+                if (_world.Contains("Loading WorldState"))
                 {
                     pbarWorld.Value = 90;
                 }
-                if (_world.Contains("WORLD: World initialized"))
+                if (_world.Contains("CMANGOS: World initialized"))
                 {
                     tmrWorld.Stop();
                     var end1          = DateTime.Now;

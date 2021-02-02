@@ -515,9 +515,9 @@
             // 
             // runWoWToolStripMenuItem
             // 
+            resources.ApplyResources(this.runWoWToolStripMenuItem, "runWoWToolStripMenuItem");
             this.runWoWToolStripMenuItem.Image = global::SppLauncher.Properties.Resources.world_of_warcraft;
             this.runWoWToolStripMenuItem.Name = "runWoWToolStripMenuItem";
-            resources.ApplyResources(this.runWoWToolStripMenuItem, "runWoWToolStripMenuItem");
             this.runWoWToolStripMenuItem.Click += new System.EventHandler(this.runWoWToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
@@ -530,9 +530,9 @@
             this.randomizeBotsToolStripMenuItem,
             this.languageToolStripMenuItem,
             this.systemProtectToolStripMenuItem});
+            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
             this.toolStripMenuItem1.Image = global::SppLauncher.Properties.Resources.configuration_1;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
             // 
             // worldSettingsToolStripMenuItem
             // 
@@ -612,9 +612,9 @@
             this.toolStripSeparator3,
             this.exportImportCharactersToolStripMenuItem1,
             this.updateToolStripMenuItem});
+            resources.ApplyResources(this.toolsToolStripMenuItem, "toolsToolStripMenuItem");
             this.toolsToolStripMenuItem.Image = global::SppLauncher.Properties.Resources.icon_gear;
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            resources.ApplyResources(this.toolsToolStripMenuItem, "toolsToolStripMenuItem");
             // 
             // lanSwitcherToolStripMenuItem1
             // 
@@ -671,9 +671,9 @@
             this.toolStripSeparator1,
             this.sendCommandForServerToolStripMenuItem,
             this.autostartToolStripMenuItem});
+            resources.ApplyResources(this.restartToolStripMenuItem, "restartToolStripMenuItem");
             this.restartToolStripMenuItem.Image = global::SppLauncher.Properties.Resources.Places_server_database_icon;
             this.restartToolStripMenuItem.Name = "restartToolStripMenuItem";
-            resources.ApplyResources(this.restartToolStripMenuItem, "restartToolStripMenuItem");
             // 
             // startstopToolStripMenuItem
             // 
@@ -715,23 +715,23 @@
             // 
             // tsmHelpUs
             // 
+            resources.ApplyResources(this.tsmHelpUs, "tsmHelpUs");
             this.tsmHelpUs.Image = global::SppLauncher.Properties.Resources.heart_icon;
             this.tsmHelpUs.Name = "tsmHelpUs";
-            resources.ApplyResources(this.tsmHelpUs, "tsmHelpUs");
             this.tsmHelpUs.Click += new System.EventHandler(this.tsmHelpUs_Click);
             // 
             // aboutToolStripMenuItem
             // 
+            resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             this.aboutToolStripMenuItem.Image = global::SppLauncher.Properties.Resources.Information_icon;
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem2
             // 
+            resources.ApplyResources(this.exitToolStripMenuItem2, "exitToolStripMenuItem2");
             this.exitToolStripMenuItem2.Image = global::SppLauncher.Properties.Resources.Windows_Close_Program_icon;
             this.exitToolStripMenuItem2.Name = "exitToolStripMenuItem2";
-            resources.ApplyResources(this.exitToolStripMenuItem2, "exitToolStripMenuItem2");
             this.exitToolStripMenuItem2.Click += new System.EventHandler(this.exitToolStripMenuItem2_Click);
             // 
             // ssBar
@@ -748,8 +748,8 @@
             // 
             // tssLOnline
             // 
-            this.tssLOnline.Name = "tssLOnline";
             resources.ApplyResources(this.tssLOnline, "tssLOnline");
+            this.tssLOnline.Name = "tssLOnline";
             // 
             // tssUsage
             // 
@@ -759,8 +759,8 @@
             // 
             // tssStatus
             // 
-            this.tssStatus.Name = "tssStatus";
             resources.ApplyResources(this.tssStatus, "tssStatus");
+            this.tssStatus.Name = "tssStatus";
             this.tssStatus.Click += new System.EventHandler(this.tssStatus_Click);
             // 
             // progressBar1
