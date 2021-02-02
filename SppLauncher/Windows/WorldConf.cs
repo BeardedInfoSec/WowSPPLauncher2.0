@@ -46,24 +46,24 @@ namespace SppLauncher
                     break;
             }
 
-            txbLevel.Text       = MyIni.Read("MangosConf", "StartPlayerLevel");
-            txbMoney.Text       = MyIni.Read("MangosConf", "StartPlayerMoney");
-            txbHonor.Text       = MyIni.Read("MangosConf", "StartHonorPoints");
-            txbArena.Text       = MyIni.Read("MangosConf", "StartArenaPoints");
-            txbPoor.Text        = MyIni.Read("MangosConf", "Rate.Drop.Item.Poor");
-            txbNormal.Text      = MyIni.Read("MangosConf", "Rate.Drop.Item.Normal");
-            txbUncommon.Text    = MyIni.Read("MangosConf", "Rate.Drop.Item.Uncommon");
-            txbRare.Text        = MyIni.Read("MangosConf", "Rate.Drop.Item.Rare");
-            txbEpic.Text        = MyIni.Read("MangosConf", "Rate.Drop.Item.Epic");
-            txbLegendary.Text   = MyIni.Read("MangosConf", "Rate.Drop.Item.Legendary");
-            txbArtifact.Text    = MyIni.Read("MangosConf", "Rate.Drop.Item.Artifact");
-            txbReferenced.Text  = MyIni.Read("MangosConf", "Rate.Drop.Item.Referenced");
-            txbMoneyRate.Text   = MyIni.Read("MangosConf", "Rate.Drop.Money");
-            txbKillRate.Text    = MyIni.Read("MangosConf", "Rate.XP.Kill");
-            txbQuestRate.Text   = MyIni.Read("MangosConf", "Rate.XP.Quest");
-            txbExploreRate.Text = MyIni.Read("MangosConf", "Rate.XP.Explore");
-            txbHonorRate.Text   = MyIni.Read("MangosConf", "Rate.Honor");
-            txbTalentRate.Text  = MyIni.Read("MangosConf", "Rate.Talent");
+            txbLevel.Text       = MyIni.Read("MangosdConf", "StartPlayerLevel");
+            txbMoney.Text       = MyIni.Read("MangosdConf", "StartPlayerMoney");
+            txbHonor.Text       = MyIni.Read("MangosdConf", "StartHonorPoints");
+            txbArena.Text       = MyIni.Read("MangosdConf", "StartArenaPoints");
+            txbPoor.Text        = MyIni.Read("MangosdConf", "Rate.Drop.Item.Poor");
+            txbNormal.Text      = MyIni.Read("MangosdConf", "Rate.Drop.Item.Normal");
+            txbUncommon.Text    = MyIni.Read("MangosdConf", "Rate.Drop.Item.Uncommon");
+            txbRare.Text        = MyIni.Read("MangosdConf", "Rate.Drop.Item.Rare");
+            txbEpic.Text        = MyIni.Read("MangosdConf", "Rate.Drop.Item.Epic");
+            txbLegendary.Text   = MyIni.Read("MangosdConf", "Rate.Drop.Item.Legendary");
+            txbArtifact.Text    = MyIni.Read("MangosdConf", "Rate.Drop.Item.Artifact");
+            txbReferenced.Text  = MyIni.Read("MangosdConf", "Rate.Drop.Item.Referenced");
+            txbMoneyRate.Text   = MyIni.Read("MangosdConf", "Rate.Drop.Money");
+            txbKillRate.Text    = MyIni.Read("MangosdConf", "Rate.XP.Kill");
+            txbQuestRate.Text   = MyIni.Read("MangosdConf", "Rate.XP.Quest");
+            txbExploreRate.Text = MyIni.Read("MangosdConf", "Rate.XP.Explore");
+            txbHonorRate.Text   = MyIni.Read("MangosdConf", "Rate.Honor");
+            txbTalentRate.Text  = MyIni.Read("MangosdConf", "Rate.Talent");
 
 
            
@@ -82,24 +82,24 @@ namespace SppLauncher
                     break;
             }
 
-            txbLevel.Text = MyIni.Read("MangosConf", "StartPlayerLevel");
-            txbMoney.Text = MyIni.Read("MangosConf", "StartPlayerMoney");
-            txbHonor.Text = MyIni.Read("MangosConf", "StartHonorPoints");
-            txbArena.Text = MyIni.Read("MangosConf", "StartArenaPoints");
-            txbPoor.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Poor");
-            txbNormal.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Normal");
-            txbUncommon.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Uncommon");
-            txbRare.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Rare");
-            txbEpic.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Epic");
-            txbLegendary.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Legendary");
-            txbArtifact.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Artifact");
-            txbReferenced.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Referenced");
-            txbMoneyRate.Text = MyIni.Read("MangosConf", "Rate.Drop.Money");
-            txbKillRate.Text = MyIni.Read("MangosConf", "Rate.XP.Kill");
-            txbQuestRate.Text = MyIni.Read("MangosConf", "Rate.XP.Quest");
-            txbExploreRate.Text = MyIni.Read("MangosConf", "Rate.XP.Explore");
-            txbHonorRate.Text = MyIni.Read("MangosConf", "Rate.Honor");
-            txbTalentRate.Text = MyIni.Read("MangosConf", "Rate.Talent");
+            txbLevel.Text = MyIni.Read("MangosdConf", "StartPlayerLevel");
+            txbMoney.Text = MyIni.Read("MangosdConf", "StartPlayerMoney");
+            txbHonor.Text = MyIni.Read("MangosdConf", "StartHonorPoints");
+            txbArena.Text = MyIni.Read("MangosdConf", "StartArenaPoints");
+            txbPoor.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Poor");
+            txbNormal.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Normal");
+            txbUncommon.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Uncommon");
+            txbRare.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Rare");
+            txbEpic.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Epic");
+            txbLegendary.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Legendary");
+            txbArtifact.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Artifact");
+            txbReferenced.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Referenced");
+            txbMoneyRate.Text = MyIni.Read("MangosdConf", "Rate.Drop.Money");
+            txbKillRate.Text = MyIni.Read("MangosdConf", "Rate.XP.Kill");
+            txbQuestRate.Text = MyIni.Read("MangosdConf", "Rate.XP.Quest");
+            txbExploreRate.Text = MyIni.Read("MangosdConf", "Rate.XP.Explore");
+            txbHonorRate.Text = MyIni.Read("MangosdConf", "Rate.Honor");
+            txbTalentRate.Text = MyIni.Read("MangosdConf", "Rate.Talent");
 
 
 
@@ -118,24 +118,24 @@ namespace SppLauncher
                     break;
             }
 
-            txbLevel.Text = MyIni.Read("MangosConf", "StartPlayerLevel");
-            txbMoney.Text = MyIni.Read("MangosConf", "StartPlayerMoney");
-            txbHonor.Text = MyIni.Read("MangosConf", "StartHonorPoints");
-            txbArena.Text = MyIni.Read("MangosConf", "StartArenaPoints");
-            txbPoor.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Poor");
-            txbNormal.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Normal");
-            txbUncommon.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Uncommon");
-            txbRare.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Rare");
-            txbEpic.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Epic");
-            txbLegendary.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Legendary");
-            txbArtifact.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Artifact");
-            txbReferenced.Text = MyIni.Read("MangosConf", "Rate.Drop.Item.Referenced");
-            txbMoneyRate.Text = MyIni.Read("MangosConf", "Rate.Drop.Money");
-            txbKillRate.Text = MyIni.Read("MangosConf", "Rate.XP.Kill");
-            txbQuestRate.Text = MyIni.Read("MangosConf", "Rate.XP.Quest");
-            txbExploreRate.Text = MyIni.Read("MangosConf", "Rate.XP.Explore");
-            txbHonorRate.Text = MyIni.Read("MangosConf", "Rate.Honor");
-            txbTalentRate.Text = MyIni.Read("MangosConf", "Rate.Talent");
+            txbLevel.Text = MyIni.Read("MangosdConf", "StartPlayerLevel");
+            txbMoney.Text = MyIni.Read("MangosdConf", "StartPlayerMoney");
+            txbHonor.Text = MyIni.Read("MangosdConf", "StartHonorPoints");
+            txbArena.Text = MyIni.Read("MangosdConf", "StartArenaPoints");
+            txbPoor.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Poor");
+            txbNormal.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Normal");
+            txbUncommon.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Uncommon");
+            txbRare.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Rare");
+            txbEpic.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Epic");
+            txbLegendary.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Legendary");
+            txbArtifact.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Artifact");
+            txbReferenced.Text = MyIni.Read("MangosdConf", "Rate.Drop.Item.Referenced");
+            txbMoneyRate.Text = MyIni.Read("MangosdConf", "Rate.Drop.Money");
+            txbKillRate.Text = MyIni.Read("MangosdConf", "Rate.XP.Kill");
+            txbQuestRate.Text = MyIni.Read("MangosdConf", "Rate.XP.Quest");
+            txbExploreRate.Text = MyIni.Read("MangosdConf", "Rate.XP.Explore");
+            txbHonorRate.Text = MyIni.Read("MangosdConf", "Rate.Honor");
+            txbTalentRate.Text = MyIni.Read("MangosdConf", "Rate.Talent");
 
 
 
@@ -145,32 +145,32 @@ namespace SppLauncher
         {
             try
             {
-                MyIni.Write("MangosConf", "StartPlayerLevel", " " + txbLevel.Text);
-                MyIni.Write("MangosConf", "StartPlayerMoney", " " + txbMoney.Text);
-                MyIni.Write("MangosConf", "StartHonorPoints", " " + txbHonor.Text);
-                MyIni.Write("MangosConf", "StartArenaPoints", " " + txbArena.Text);
-                MyIni.Write("MangosConf", "Rate.Drop.Item.Poor", " " + txbPoor.Text);
-                MyIni.Write("MangosConf", "Rate.Drop.Item.Normal", " " + txbNormal.Text);
-                MyIni.Write("MangosConf", "Rate.Drop.Item.Uncommon", " " + txbUncommon.Text);
-                MyIni.Write("MangosConf", "Rate.Drop.Item.Rare", " " + txbRare.Text);
-                MyIni.Write("MangosConf", "Rate.Drop.Item.Legendary", " " + txbLegendary.Text);
-                MyIni.Write("MangosConf", "Rate.Drop.Item.Artifact", " " + txbArtifact.Text);
-                MyIni.Write("MangosConf", "Rate.Drop.Item.Referenced", " " + txbReferenced.Text);
-                MyIni.Write("MangosConf", "Rate.Drop.Item.Epic", " " + txbEpic.Text);
-                MyIni.Write("MangosConf", "Rate.Drop.Money", " " + txbMoneyRate.Text);
-                MyIni.Write("MangosConf", "Rate.XP.Kill", " " + txbKillRate.Text);
-                MyIni.Write("MangosConf", "Rate.XP.Quest", " " + txbQuestRate.Text);
-                MyIni.Write("MangosConf", "Rate.XP.Explore", " " + txbExploreRate.Text);
-                MyIni.Write("MangosConf", "Rate.Honor", " " + txbHonorRate.Text);
-                MyIni.Write("MangosConf", "Rate.Talent", " " + txbTalentRate.Text);
+                MyIni.Write("MangosdConf", "StartPlayerLevel", " " + txbLevel.Text);
+                MyIni.Write("MangosdConf", "StartPlayerMoney", " " + txbMoney.Text);
+                MyIni.Write("MangosdConf", "StartHonorPoints", " " + txbHonor.Text);
+                MyIni.Write("MangosdConf", "StartArenaPoints", " " + txbArena.Text);
+                MyIni.Write("MangosdConf", "Rate.Drop.Item.Poor", " " + txbPoor.Text);
+                MyIni.Write("MangosdConf", "Rate.Drop.Item.Normal", " " + txbNormal.Text);
+                MyIni.Write("MangosdConf", "Rate.Drop.Item.Uncommon", " " + txbUncommon.Text);
+                MyIni.Write("MangosdConf", "Rate.Drop.Item.Rare", " " + txbRare.Text);
+                MyIni.Write("MangosdConf", "Rate.Drop.Item.Legendary", " " + txbLegendary.Text);
+                MyIni.Write("MangosdConf", "Rate.Drop.Item.Artifact", " " + txbArtifact.Text);
+                MyIni.Write("MangosdConf", "Rate.Drop.Item.Referenced", " " + txbReferenced.Text);
+                MyIni.Write("MangosdConf", "Rate.Drop.Item.Epic", " " + txbEpic.Text);
+                MyIni.Write("MangosdConf", "Rate.Drop.Money", " " + txbMoneyRate.Text);
+                MyIni.Write("MangosdConf", "Rate.XP.Kill", " " + txbKillRate.Text);
+                MyIni.Write("MangosdConf", "Rate.XP.Quest", " " + txbQuestRate.Text);
+                MyIni.Write("MangosdConf", "Rate.XP.Explore", " " + txbExploreRate.Text);
+                MyIni.Write("MangosdConf", "Rate.Honor", " " + txbHonorRate.Text);
+                MyIni.Write("MangosdConf", "Rate.Talent", " " + txbTalentRate.Text);
                 
                 switch (cbPaths.Text)
                 {
                     case "Enabled":
-                        MyIni.Write("MangosConf", "AllFlightPaths", " " + "1");
+                        MyIni.Write("MangosdConf", "AllFlightPaths", " " + "1");
                         break;
                     case "Disabled":
-                        MyIni.Write("MangosConf", "AllFlightPaths", " " + "0");
+                        MyIni.Write("MangosdConf", "AllFlightPaths", " " + "0");
                         break;
                 }
             }
