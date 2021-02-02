@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Final_splash_nelf1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Final_splash_nelf1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="us" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\us.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_gear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="not-available_100x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\not-available_100x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="announce_Current_ram_usage_" xml:space="preserve">
+    <value>.announce Current ram usage:</value>
+  </data>
+  <data name="Warning-icon_mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Warning-icon_mini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Play-1-Hot-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Play-1-Hot-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_englishToolStripMenuItem_Click_Changes_will_take_effect_when_you_restart_Launcher_" xml:space="preserve">
+    <value>Changes will take effect when you restart Launcher.</value>
+  </data>
+  <data name="heart-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heart-icon.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_updateToolStripMenuItem_Click_Decompress_Update" xml:space="preserve">
+    <value>Decompress Update</value>
+  </data>
+  <data name="tick_octagon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tick_octagon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows-Close-Program-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows-Close-Program-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Other-Power-Switch-User-Metro-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Other-Power-Switch-User-Metro-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_import_Online_Bots__N_A" xml:space="preserve">
+    <value>Online Bots: N/A</value>
+  </data>
+  <data name="temporarily_not_available_100x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\temporarily_not_available_100x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_CheckMangosCrashed_Tick_Mangosd_Crashed" xml:space="preserve">
+    <value>Mangosd Crashed</value>
+  </data>
+  <data name="Launcher_Launcher_Auto_Changed_RealmList_wtf_and_after_exit_SPP_change_back_original_realmlist_" xml:space="preserve">
+    <value>Auto Changed RealmList.wtf and after exit SPP change back original realmlist.</value>
+  </data>
+  <data name="Final_splash_nelf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Final_splash_nelf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_export_Exporting_Characters" xml:space="preserve">
+    <value>Exporting Characters</value>
+  </data>
+  <data name="Launcher_bwUpdate_DoWork_You_want_to_download_" xml:space="preserve">
+    <value>You want to download?</value>
+  </data>
+  <data name="Launcher_StartAll_Starting_Mysqlm" xml:space="preserve">
+    <value>Starting Mysql</value>
+  </data>
+  <data name="Launcher_bwUpdate_DoWork_New_Server_Update_Available" xml:space="preserve">
+    <value>New Server Update Available</value>
+  </data>
+  <data name="Launcher_bWUpEx_RunWorkerCompleted_Completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="Launcher_startNStop_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Launcher_RandomizeBotsMethod_" xml:space="preserve">
+    <value>Update started.
+Do lag for several times.</value>
+  </data>
+  <data name="WowaccountCreator_InsertSqlTrinity_" xml:space="preserve">
+    <value>
+Account type: </value>
+  </data>
+  <data name="BotConf_SaveIni_" xml:space="preserve">
+    <value>Bot Settings Saved.
+The changes to take effect bot reset requiered.</value>
+  </data>
+  <data name="Launcher_CloseProcess_Login_Shutdown" xml:space="preserve">
+    <value>Login Shutdown</value>
+  </data>
+  <data name="Launcher_startNStop_Derver_is_down" xml:space="preserve">
+    <value>Server is down</value>
+  </data>
+  <data name="WowaccountCreator_InsertSqlTrinity_Account_created_successfully__" xml:space="preserve">
+    <value>Account created successfully: </value>
+  </data>
+  <data name="report-bug-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\report-bug-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_import_Import_Characters" xml:space="preserve">
+    <value>Import Characters</value>
+  </data>
+  <data name="Launcher_GetSqlOnlineBot_Tick_Online_Bot_" xml:space="preserve">
+    <value>Online Players: </value>
+  </data>
+  <data name="CloseProcess_Saving" xml:space="preserve">
+    <value>Saving</value>
+  </data>
+  <data name="Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_SearchProcess_" xml:space="preserve">
+    <value>Mangosd process is running.
+You want close the running process?</value>
+  </data>
+  <data name="flat-27406_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flat-27406_640.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Import_Icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Import_Icon_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search_animation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search_animation.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BotConf_SaveIni_default" xml:space="preserve">
+    <value>Default settings loaded.
+The changes to take effect bot reset requiered.</value>
+  </data>
+  <data name="Please_Fill" xml:space="preserve">
+    <value>Please Fill out the Description box.</value>
+  </data>
+  <data name="Launcher_startNStop_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Launcher_Traymsg_Ready_to_play" xml:space="preserve">
+    <value>Ready to play</value>
+  </data>
+  <data name="Launcher_bwUpdate_DoWork_New_Version_Available__V" xml:space="preserve">
+    <value>New Version Available: V</value>
+  </data>
+  <data name="announce_Current_ram_usage" xml:space="preserve">
+    <value>.announce Current ram usage:</value>
+  </data>
+  <data name="info_icon_mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_icon_mini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_RealmRestore_" xml:space="preserve">
+    <value>Some Exception: RealmRestore
+</value>
+  </data>
+  <data name="WowaccountCreator_InsertSqlTrinity_Username_is_already_taken_" xml:space="preserve">
+    <value>Username is already taken.</value>
+  </data>
+  <data name="Launcher_CloseProcess_World_Shutdown" xml:space="preserve">
+    <value>World Shutdown</value>
+  </data>
+  <data name="Launcher_bwImport_DoWork_Import_Accounts" xml:space="preserve">
+    <value>Import Accounts</value>
+  </data>
+  <data name="Final_splash_panda2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Final_splash_panda2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_bwImport_RunWorkerCompleted_Import_Completed" xml:space="preserve">
+    <value>Import Completed</value>
+  </data>
+  <data name="Launcher_CheckWowRun_Tick_Would_you_like_to_start_World_of_Warcraft_" xml:space="preserve">
+    <value>Would you like to start World of Warcraft?</value>
+  </data>
+  <data name="BotConf_cbRndBotLgn_MouseHover_All_bots_join_on_start_" xml:space="preserve">
+    <value>All available bots join on start.</value>
+  </data>
+  <data name="Good-or-Tick-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Good-or-Tick-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_Checking_Update" xml:space="preserve">
+    <value>Checking Update</value>
+  </data>
+  <data name="Launcher_bwUpdate_RunWorkerCompleted_Up_to_date" xml:space="preserve">
+    <value>Up to date</value>
+  </data>
+  <data name="Launcher_Traymsg_Servers_Started" xml:space="preserve">
+    <value>Servers Started</value>
+  </data>
+  <data name="Launcher_tmrWorld_Tick_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="Launcher_CloseProcess_" xml:space="preserve">
+    <value>Some Exception: CloseProcess
+</value>
+  </data>
+  <data name="Launcher_SearchProcess0_" xml:space="preserve">
+    <value>Some Exception: SearchProcess
+</value>
+  </data>
+  <data name="Function_is_temporarily_disabled" xml:space="preserve">
+    <value>Function is temporarily disabled</value>
+  </data>
+  <data name="WowClassicLauncherIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WowClassicLauncherIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_ResetBots_" xml:space="preserve">
+    <value>Restart is required for reset bots.
+Restart now?</value>
+  </data>
+  <data name="Launcher_RealmChange_" xml:space="preserve">
+    <value>Some Exception: RealmChange
+</value>
+  </data>
+  <data name="Launcher_bwExport_DoWork_Export_Accounts" xml:space="preserve">
+    <value>Export Accounts</value>
+  </data>
+  <data name="Launcher_SearchProcess_Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Launcher_RealmRestore_Restored" xml:space="preserve">
+    <value>Restored</value>
+  </data>
+  <data name="wow_cataclysm_icon_by_versewastaken-d30rcse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wow_cataclysm_icon_by_versewastaken-d30rcse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_tick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_tick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Information_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Information_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GetUpdate_New_update_available_" xml:space="preserve">
+    <value>New update available!</value>
+  </data>
+  <data name="WowClassicLauncherIcon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WowClassicLauncherIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_bwExport_RunWorkerCompleted_Export_Completed" xml:space="preserve">
+    <value>Export Completed</value>
+  </data>
+  <data name="Your_DB_is_up_to_date_" xml:space="preserve">
+    <value>Your DB is up to date.</value>
+  </data>
+  <data name="Launcher_SearchProcess2_" xml:space="preserve">
+    <value>Mysqld process is running.
+You want close the running process?</value>
+  </data>
+  <data name="Launcher_CheckMangosCrashed_Tick_The_process_is_automatically_restart_" xml:space="preserve">
+    <value>The process is automatically restart.</value>
+  </data>
+  <data name="Other-Power-Restart-Metro-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Other-Power-Restart-Metro-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_RealmRestore_Realmlist" xml:space="preserve">
+    <value>Realmlist</value>
+  </data>
+  <data name="announce_If_the_RAM_usage_exceeds" xml:space="preserve">
+    <value>.announce If the RAM usage exceeds 90%, auto-restart!}</value>
+  </data>
+  <data name="WowClassicLauncherIcon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WowClassicLauncherIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="announce_Auto_Restart" xml:space="preserve">
+    <value>.announce Auto-Restart!</value>
+  </data>
+  <data name="Launcher_export_Backup" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="paypal_donate_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paypal_donate_button.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Total_Character__" xml:space="preserve">
+    <value>Total Character: </value>
+  </data>
+  <data name="Launcher_bwUpdate_DoWork_ERROR" xml:space="preserve">
+    <value>ERROR</value>
+  </data>
+  <data name="WoW-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WoW-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_WorldStart_Loading_World" xml:space="preserve">
+    <value>Loading World</value>
+  </data>
+  <data name="Launcher_export_Export_Characters" xml:space="preserve">
+    <value>Export Characters</value>
+  </data>
+  <data name="pic_paypal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_paypal.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button-stop-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-stop-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WowaccountCreator_btnCreate_Click_Your_password_must_be_at_least_6_characters_long__" xml:space="preserve">
+    <value>Your password must be at least 6 characters long. </value>
+  </data>
+  <data name="Launcher_bwUpdate_DoWork_New_Version" xml:space="preserve">
+    <value>New Version</value>
+  </data>
+  <data name="Places-server-database-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Places-server-database-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_rstchck_DoWork_Reset_bots" xml:space="preserve">
+    <value>Reset bots</value>
+  </data>
+  <data name="Launcher_import_Decompress" xml:space="preserve">
+    <value>Decompress</value>
+  </data>
+  <data name="available_100x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\available_100x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launcher_RealmdStart_Starting_Realm" xml:space="preserve">
+    <value>Starting Realm</value>
+  </data>
+  <data name="Launcher_magyarToolStripMenuItem_Click_1_Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Launcher_RealmChange0_" xml:space="preserve">
+    <value>Some Exception: RealmWrite
+</value>
+  </data>
+  <data name="Launcher_startNStop_Online_bot__N_A" xml:space="preserve">
+    <value>Online Players: N/A</value>
+  </data>
+  <data name="Launcher_bwExport_DoWork_Compressing" xml:space="preserve">
+    <value>Compressing</value>
+  </data>
+  <data name="WowaccountCreator_btnCreate_Click_Your_username_must_be_at_least_4_characters_long__" xml:space="preserve">
+    <value>Your username must be at least 4 characters long. </value>
+  </data>
+  <data name="configuration 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\configuration 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Export_Icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Export_Icon_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="world-of-warcraft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\world-of-warcraft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WowClassicLauncherIcon-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WowClassicLauncherIcon-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

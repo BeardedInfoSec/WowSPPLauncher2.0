@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{51E1AB11-8A59-41F9-A811-636832B87A6B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SppLauncher</RootNamespace>
+    <AssemblyName>SppLauncher</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FodyPath>..\packages\Fody.1.14.0</FodyPath>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\SPP_IN\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\wow_cataclysm_icon_by_versewastaken-d30rcse.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>App config and Fody\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip">
+      <HintPath>Dlls\Ionic.Zip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data">
+      <HintPath>Dlls\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySqlBackup">
+      <HintPath>Dlls\MySqlBackup.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\LanSwitcher\GetPublicIP.cs" />
+    <Compile Include="Windows\Launcher\AssemblyResolver.cs" />
+    <Compile Include="Windows\Launcher\ExpSelector.cs" />
+    <Compile Include="Windows\Launcher\GetSqlCount.cs" />
+    <Compile Include="Windows\Launcher\isUnitTest.cs" />
+    <Compile Include="Windows\Launcher\ServerConfig.cs" />
+    <Compile Include="Windows\Launcher\ServerSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Launcher\ServerSelector.Designer.cs">
+      <DependentUpon>ServerSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Launcher\UpdateExtract.cs" />
+    <Compile Include="Windows\Launcher\XmlReadWrite.cs" />
+    <Compile Include="Windows\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\BotConf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\BotConf.Designer.cs">
+      <DependentUpon>BotConf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\BugReport\BugReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\BugReport\BugReport.Designer.cs">
+      <DependentUpon>BugReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\BugReport\GetServerIP.cs" />
+    <Compile Include="Windows\BugReport\GetSysInfo.cs" />
+    <Compile Include="Windows\BugReport\SendReport.cs" />
+    <Compile Include="Windows\DatabaseUpdate\DatabaseUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\DatabaseUpdate\DatabaseUpdate.Designer.cs">
+      <DependentUpon>DatabaseUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\DatabaseUpdate\RunMysql.cs" />
+    <Compile Include="Windows\HelpUsWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\HelpUsWindow.Designer.cs">
+      <DependentUpon>HelpUsWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\ReadINI.cs" />
+    <Compile Include="Windows\LanSwitcher\LanSwitcher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\LanSwitcher\LanSwitcher.Designer.cs">
+      <DependentUpon>LanSwitcher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Launcher\Launcher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Launcher\Launcher.Designer.cs">
+      <DependentUpon>Launcher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Loader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Loader.Designer.cs">
+      <DependentUpon>Loader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\MySQLClient.cs" />
+    <Compile Include="Class\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Windows\Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Update.Designer.cs">
+      <DependentUpon>Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Update_Completed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Update_Completed.Designer.cs">
+      <DependentUpon>Update_Completed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WorldConf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\WorldConf.Designer.cs">
+      <DependentUpon>WorldConf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\DatabaseUpdate\FileCopyOverWrite.cs" />
+    <Compile Include="Windows\WowAccountCreator\GenHash.cs" />
+    <Compile Include="Windows\WowAccountCreator\WowAccountCreator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\WowAccountCreator\WowAccountCreator.Designer.cs">
+      <DependentUpon>WowAccountCreator.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.hu.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\AboutBox.de.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\AboutBox.fr.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\AboutBox.hu.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BotConf.de.resx">
+      <DependentUpon>BotConf.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BotConf.fr.resx">
+      <DependentUpon>BotConf.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BotConf.hu.resx">
+      <DependentUpon>BotConf.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BotConf.resx">
+      <DependentUpon>BotConf.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BugReport\BugReport.de.resx">
+      <DependentUpon>BugReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BugReport\BugReport.fr.resx">
+      <DependentUpon>BugReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BugReport\BugReport.hu.resx">
+      <DependentUpon>BugReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BugReport\BugReport.resx">
+      <DependentUpon>BugReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\DatabaseUpdate\DatabaseUpdate.resx">
+      <DependentUpon>DatabaseUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\HelpUsWindow.de.resx">
+      <DependentUpon>HelpUsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\HelpUsWindow.fr.resx">
+      <DependentUpon>HelpUsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\HelpUsWindow.hu.resx">
+      <DependentUpon>HelpUsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\HelpUsWindow.resx">
+      <DependentUpon>HelpUsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\LanSwitcher\LanSwitcher.de.resx">
+      <DependentUpon>LanSwitcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\LanSwitcher\LanSwitcher.fr.resx">
+      <DependentUpon>LanSwitcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\LanSwitcher\LanSwitcher.hu.resx">
+      <DependentUpon>LanSwitcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\LanSwitcher\LanSwitcher.resx">
+      <DependentUpon>LanSwitcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Launcher\Launcher.de.resx">
+      <DependentUpon>Launcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Launcher\Launcher.fr.resx">
+      <DependentUpon>Launcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Launcher\Launcher.hu.resx">
+      <DependentUpon>Launcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Launcher\Launcher.resx">
+      <DependentUpon>Launcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Launcher\ServerSelector.resx">
+      <DependentUpon>ServerSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Loader.resx">
+      <DependentUpon>Loader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Update.de.resx">
+      <DependentUpon>Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Update.fr.resx">
+      <DependentUpon>Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Update.hu.resx">
+      <DependentUpon>Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Update.resx">
+      <DependentUpon>Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Update_Completed.de.resx">
+      <DependentUpon>Update_Completed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Update_Completed.fr.resx">
+      <DependentUpon>Update_Completed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Update_Completed.hu.resx">
+      <DependentUpon>Update_Completed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Update_Completed.resx">
+      <DependentUpon>Update_Completed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\WorldConf.de.resx">
+      <DependentUpon>WorldConf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\WorldConf.fr.resx">
+      <DependentUpon>WorldConf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\WorldConf.hu.resx">
+      <DependentUpon>WorldConf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\WorldConf.resx">
+      <DependentUpon>WorldConf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\WowAccountCreator\WowAccountCreator.hu.resx">
+      <DependentUpon>WowAccountCreator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\WowAccountCreator\WowAccountCreator.resx">
+      <DependentUpon>WowAccountCreator.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="App config and Fody\app.manifest" />
+    <None Include="Fody.targets" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\Wfont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Final_splash_panda2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Final_splash_nelf1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Final_splash_nelf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\available_100x100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\configuration 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_gear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Information_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\not-available_100x100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Other-Power-Restart-Metro-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Other-Power-Switch-User-Metro-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_paypal.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report-bug-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temporarily_not_available_100x100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows-Close-Program-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\world-of-warcraft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wow_cataclysm_icon_by_versewastaken-d30rcse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WoW-icon.png" />
+    <None Include="Resources\heart-icon.gif" />
+    <None Include="Resources\paypal_donate_button.gif" />
+    <None Include="Resources\Places-server-database-icon.png" />
+    <None Include="Resources\Play-1-Hot-icon.png" />
+    <None Include="Resources\Button-stop-icon.png" />
+    <None Include="Resources\Export_Icon_32.png" />
+    <None Include="Resources\Import_Icon_32.png" />
+    <None Include="Resources\search_animation.gif" />
+    <None Include="Resources\hu.png" />
+    <None Include="Resources\us.png" />
+    <None Include="Resources\flat-27406_640.png" />
+    <Content Include="FodyWeavers.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Resources\tick_octagon.png" />
+    <None Include="Resources\Warning-icon_mini.png" />
+    <None Include="Resources\info_icon_mini.png" />
+    <None Include="Resources\Good-or-Tick-icon.png" />
+    <None Include="Resources\check-icon.png" />
+    <Content Include="Resources\Background.jpg" />
+    <None Include="Resources\WowClassicLauncherIcon-removebg-preview.png" />
+    <Content Include="Resources\WowClassicLauncherIcon.png" />
+    <Content Include="Resources\WowTBCLauncherIcon.png" />
+    <Content Include="Resources\WowWoTLKLauncherIcon.png" />
+    <Content Include="Resources\wow_cataclysm_icon_by_versewastaken-d30rcse.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <Import Project="Fody.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

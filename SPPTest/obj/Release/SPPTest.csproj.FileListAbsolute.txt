@@ -1,0 +1,12 @@
+C:\Users\Noodles\Desktop\spp-project-master\SPPTest\obj\Release\SPPTest.csprojAssemblyReference.cache
+C:\Users\Noodles\Desktop\spp-project-master\SPPTest\obj\Release\SPPTest.csproj.CoreCompileInputs.cache
+C:\Users\Noodles\Desktop\spp-project-master\SPPTest\obj\Release\SPPTest.csproj.CopyComplete
+C:\Users\Noodles\Desktop\spp-project-master\SPPTest\obj\Release\SPPTest.dll
+C:\Users\Noodles\Desktop\spp-project-master\SPPTest\obj\Release\SPPTest.pdb
+C:\Users\Noodles\Desktop\SPP\Single Player Project Real v2\SPPTest.dll
+C:\Users\Noodles\Desktop\SPP\Single Player Project Real v2\SPPTest.pdb
+C:\Users\Noodles\Desktop\spplauncher working cpy\SPPTest\obj\Release\SPPTest.csprojAssemblyReference.cache
+C:\Users\Noodles\Desktop\spplauncher working cpy\SPPTest\obj\Release\SPPTest.csproj.CoreCompileInputs.cache
+C:\Users\Noodles\Desktop\spplauncher working cpy\SPPTest\obj\Release\SPPTest.csproj.CopyComplete
+C:\Users\Noodles\Desktop\spplauncher working cpy\SPPTest\obj\Release\SPPTest.dll
+C:\Users\Noodles\Desktop\spplauncher working cpy\SPPTest\obj\Release\SPPTest.pdb

@@ -1,0 +1,113 @@
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.csprojAssemblyReference.cache
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.AboutBox.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.BotConf.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Windows.BugReport.BugReport.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Windows.DatabaseUpdate.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.HelpUsWindow.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Windows.LanSwitcher.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Windows.Launcher.Launcher.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Loader.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Properties.Resources.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Update.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Update_Completed.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.WorldConf.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\WowAccountCreator.WowaccountCreator.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Properties.Resources.de.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Properties.Resources.fr.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Properties.Resources.hu.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.AboutBox.de.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.AboutBox.fr.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.AboutBox.hu.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.BotConf.de.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.BotConf.fr.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.BotConf.hu.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Windows.BugReport.BugReport.de.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Windows.BugReport.BugReport.fr.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Windows.BugReport.BugReport.hu.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.HelpUsWindow.de.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.HelpUsWindow.fr.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.HelpUsWindow.hu.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Windows.LanSwitcher.de.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Windows.LanSwitcher.fr.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Windows.LanSwitcher.hu.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Windows.Launcher.Launcher.de.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Windows.Launcher.Launcher.fr.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Windows.Launcher.Launcher.hu.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Update.de.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Update.fr.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Update.hu.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Update_Completed.de.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Update_Completed.fr.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.Update_Completed.hu.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.WorldConf.de.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.WorldConf.fr.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.WorldConf.hu.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\WowAccountCreator.WowaccountCreator.hu.resources
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.csproj.GenerateResource.cache
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.csproj.CoreCompileInputs.cache
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\de\SppLauncher.resources.dll
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\fr\SppLauncher.resources.dll
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\hu\SppLauncher.resources.dll
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.csproj.CopyComplete
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.exe
+C:\Users\Noodles\Desktop\spp-project-master\SppLauncher\obj\Release\SppLauncher.pdb
+C:\Users\Noodles\SPP_IN\SppLauncher.exe.config
+C:\Users\Noodles\SPP_IN\SppLauncher.exe
+C:\Users\Noodles\SPP_IN\SppLauncher.pdb
+C:\Users\Noodles\SPP_IN\de\SppLauncher.resources.dll
+C:\Users\Noodles\SPP_IN\fr\SppLauncher.resources.dll
+C:\Users\Noodles\SPP_IN\hu\SppLauncher.resources.dll
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.AboutBox.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.BotConf.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Windows.BugReport.BugReport.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Windows.DatabaseUpdate.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.HelpUsWindow.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Windows.LanSwitcher.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Windows.Launcher.Launcher.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Windows.Launcher.ServerSelector.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Loader.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Properties.Resources.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Update.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Update_Completed.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.WorldConf.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\WowAccountCreator.WowaccountCreator.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Properties.Resources.de.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Properties.Resources.fr.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Properties.Resources.hu.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.AboutBox.de.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.AboutBox.fr.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.AboutBox.hu.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.BotConf.de.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.BotConf.fr.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.BotConf.hu.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Windows.BugReport.BugReport.de.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Windows.BugReport.BugReport.fr.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Windows.BugReport.BugReport.hu.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.HelpUsWindow.de.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.HelpUsWindow.fr.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.HelpUsWindow.hu.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Windows.LanSwitcher.de.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Windows.LanSwitcher.fr.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Windows.LanSwitcher.hu.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Windows.Launcher.Launcher.de.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Windows.Launcher.Launcher.fr.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Windows.Launcher.Launcher.hu.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Update.de.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Update.fr.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Update.hu.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Update_Completed.de.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Update_Completed.fr.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.Update_Completed.hu.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.WorldConf.de.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.WorldConf.fr.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.WorldConf.hu.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\WowAccountCreator.WowaccountCreator.hu.resources
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.csproj.GenerateResource.cache
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.csproj.CoreCompileInputs.cache
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\de\SppLauncher.resources.dll
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\fr\SppLauncher.resources.dll
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\hu\SppLauncher.resources.dll
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.csproj.CopyComplete
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.exe
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.pdb
+C:\Users\Noodles\Desktop\spplauncher working cpy\SppLauncher\obj\Release\SppLauncher.csprojAssemblyReference.cache
