@@ -5,7 +5,7 @@ namespace SppLauncher
 {
     public partial class WorldConf : Form
     {
-        readonly IniFileClass MyIni = new IniFileClass("SPP_Classics_V2\\SPP_Server\\Settings\\vanilla\\Mangosd.CONF");
+        readonly IniFileClass MyIni = new IniFileClass("SPP_Server\\Settings\\vanilla\\Mangosd.CONF");
 
 
         public WorldConf(string Expansion)
@@ -14,17 +14,17 @@ namespace SppLauncher
 
             if (Expansion == "classic")
             {
-                MyIni = new IniFileClass("SPP_Classics_V2\\SPP_Server\\Settings\\vanilla\\mangosd.CONF");
+                MyIni = new IniFileClass("SPP_Server\\Settings\\vanilla\\mangosd.CONF");
                 ReadiniClassic();
             }
             if (Expansion == "tbc")
             {
-                MyIni = new IniFileClass("SPP_Classics_V2\\SPP_Server\\Settings\\tbc\\mangosd.CONF");
+                MyIni = new IniFileClass("SPP_Server\\Settings\\tbc\\mangosd.CONF");
                 Readinitbc();
             }
             if (Expansion == "wotlk")
             {
-                MyIni = new IniFileClass("SPP_Classics_V2\\SPP_Server\\Settings\\wotlk\\mangosd.CONF");
+                MyIni = new IniFileClass("SPP_Server\\Settings\\wotlk\\mangosd.CONF");
                 Readiniwotlk();
             }
 

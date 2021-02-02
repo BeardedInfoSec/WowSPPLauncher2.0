@@ -41,7 +41,6 @@ namespace SppLauncher.Windows.Launcher
         {
             Launcher lan2 = new Launcher();
             lan2.ExpansionSelection(expansion);
-            MessageBox.Show("Launch Game for " + expansion.ToString());
             lan2.ShowDialog();
         }
 

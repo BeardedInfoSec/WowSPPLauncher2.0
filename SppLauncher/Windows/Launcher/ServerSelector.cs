@@ -35,5 +35,10 @@ namespace SppLauncher.Windows.Launcher
             this.Close();
             ServerConfig.PlayWoTLK();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -90,7 +90,7 @@ namespace SppLauncher.Windows.Launcher
             {
                 LwPath = "SPP_Server\\Server\\Binaries\\wotlk\\Bin64\\";
             }
-            MessageBox.Show("Set LwPath to " + LwPath);
+            
         }
 
         private void Launcher_Shown(object sender, EventArgs e)
@@ -267,7 +267,6 @@ namespace SppLauncher.Windows.Launcher
             StatusChage(Resources.Launcher_WorldStart_Loading_World, false);
             WindowSize(false);
             tmrWorld.Start();
-            MessageBox.Show("WorldStart path is " + LwPath);
             var cmdStartInfo                    = new ProcessStartInfo(LwPath + "mangosd.exe");
             cmdStartInfo.CreateNoWindow         = true;
             cmdStartInfo.RedirectStandardInput  = true;
@@ -275,14 +274,12 @@ namespace SppLauncher.Windows.Launcher
             cmdStartInfo.RedirectStandardError  = true;
             cmdStartInfo.UseShellExecute        = false;
             cmdStartInfo.WindowStyle            = ProcessWindowStyle.Normal;
-            MessageBox.Show("Running command: " + cmdStartInfo);
             _cmd1 = new Process();
             _cmd1.StartInfo = cmdStartInfo;
 
 
             if (_cmd1.Start())
             {
-                MessageBox.Show("WorldStart command started");
                 _cmd1.OutputDataReceived += _cmd_OutputDataReceived1;
                 _cmd1.ErrorDataReceived  += _cmd_ErrorDataReceived1;
                 _cmd1.Exited             += _cmd_Exited1;
@@ -291,7 +288,6 @@ namespace SppLauncher.Windows.Launcher
             }
             else
             {
-                MessageBox.Show("WorldStart command failed");
                 _cmd1 = null;
             }
         }
@@ -304,9 +300,7 @@ namespace SppLauncher.Windows.Launcher
             tssStatus.Image     = Resources.search_animation;
             pbTempR.Visible     = true;
             pbNotAvailR.Visible = false;
-
             tmrRealm.Start();
-            MessageBox.Show("RealmdStart path is " + LwPath);
             var cmdStartInfo                    = new ProcessStartInfo(LwPath + "realmd.exe");
             cmdStartInfo.CreateNoWindow         = true;
             cmdStartInfo.RedirectStandardInput  = true;
@@ -314,10 +308,8 @@ namespace SppLauncher.Windows.Launcher
             cmdStartInfo.RedirectStandardError  = true;
             cmdStartInfo.UseShellExecute        = false;
             cmdStartInfo.WindowStyle            = ProcessWindowStyle.Hidden;
-            MessageBox.Show("Running command: " + cmdStartInfo);
             _cmd                                = new Process();
             _cmd.StartInfo                      = cmdStartInfo;
-
             if (_cmd.Start())
             {
                 _cmd.OutputDataReceived += _cmd_OutputDataReceived;

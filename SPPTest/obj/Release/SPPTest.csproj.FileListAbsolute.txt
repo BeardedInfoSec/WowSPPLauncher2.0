@@ -10,3 +10,10 @@ C:\Users\Noodles\Desktop\spplauncher working cpy\SPPTest\obj\Release\SPPTest.csp
 C:\Users\Noodles\Desktop\spplauncher working cpy\SPPTest\obj\Release\SPPTest.csproj.CopyComplete
 C:\Users\Noodles\Desktop\spplauncher working cpy\SPPTest\obj\Release\SPPTest.dll
 C:\Users\Noodles\Desktop\spplauncher working cpy\SPPTest\obj\Release\SPPTest.pdb
+E:\WoW Private Servers\Server Files\Dev\SPP\Single Player Project Real v2\SPPTest.dll
+E:\WoW Private Servers\Server Files\Dev\SPP\Single Player Project Real v2\SPPTest.pdb
+E:\WoW Private Servers\Server Files\Dev\WowSPPLauncher\SPPTest\obj\Release\SPPTest.csprojAssemblyReference.cache
+E:\WoW Private Servers\Server Files\Dev\WowSPPLauncher\SPPTest\obj\Release\SPPTest.csproj.CoreCompileInputs.cache
+E:\WoW Private Servers\Server Files\Dev\WowSPPLauncher\SPPTest\obj\Release\SPPTest.csproj.CopyComplete
+E:\WoW Private Servers\Server Files\Dev\WowSPPLauncher\SPPTest\obj\Release\SPPTest.dll
+E:\WoW Private Servers\Server Files\Dev\WowSPPLauncher\SPPTest\obj\Release\SPPTest.pdb
