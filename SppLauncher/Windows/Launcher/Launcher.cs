@@ -26,7 +26,7 @@ namespace SppLauncher.Windows.Launcher
         #region [ Variable ]
         private static double _remoteEmuVer;
         private string LwPath;
-        private const string Sqlpath = "SPP_Server\\Server\\Database\\bin\\";
+        private const string Sqlpath = "Database\\bin\\";
         private readonly string _getTemp = Path.GetTempPath();
         private static Process _cmd, _cmd1, _cmd3;
         private DateTime _dt;
@@ -80,15 +80,15 @@ namespace SppLauncher.Windows.Launcher
         {
             if(Expansion == ServerConfig.ExpansionType.Classic)
             {
-                LwPath = "SPP_Server\\Server\\Binaries\\vanilla\\Bin64\\";
+                LwPath = "Core\\vanilla\\";
             }
             if (Expansion == ServerConfig.ExpansionType.TBC)
             {
-                LwPath = "SPP_Server\\Server\\Binaries\\tbc\\Bin64\\";
+                LwPath = "Core\\tbc\\";
             }
             if (Expansion == ServerConfig.ExpansionType.WOTLK)
             {
-                LwPath = "SPP_Server\\Server\\Binaries\\wotlk\\Bin64\\";
+                LwPath = "Core\\wotlk\\";
             }
             
         }
@@ -1037,7 +1037,7 @@ namespace SppLauncher.Windows.Launcher
             var startInfo             = new ProcessStartInfo();
             startInfo.CreateNoWindow  = true;
             startInfo.UseShellExecute = false;
-            startInfo.FileName        = "SPP_Server\\Server\\Database\\bin\\mysqladmin.exe";
+            startInfo.FileName        = "Database\\bin\\mysqladmin.exe";
             startInfo.Arguments       = "-u root -p123456 --port=3310 shutdown";
             startInfo.WindowStyle     = ProcessWindowStyle.Hidden;
 
